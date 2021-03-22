@@ -1,0 +1,20 @@
+name: githell
+version: 0.1.0
+
+# authors:
+#   - name <email@example.com>
+
+# description: |
+#   Short description of githell
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  dotenv:
+    github: drum445/dotenv
+
+# development_dependencies:
+#   webmock:
+#     github: manastech/webmock.cr
+
+# license: MIT

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>git hell</title>
+</head>
+<body>
+    <h1>git hell</h1>
+    <p>
+        when you write software, it is credited to you. you own it.
+        when people look at it, they will find it on your account,
+        your profile, whatever - it has your name attached. what if
+        it didn't? git hell is a small experiment in that. git
+        repos are pulled in from github, the filenames hashed, and
+        they are pushed to one communal git repo. your name is gone.
+        and your code is probably broken too. give it a try. type
+        a git repo below and press the button. you can find all the
+        'code' <a href="https://github.com/git-hell/githell">here</a>.
+    </p>
+    <form action="/repo" method="POST" enctype="application/x-www-form-urlencoded">
+        <input type="text" name="repo" />
+        <input type="submit" />
+    </form>
+</body>
+</html>
