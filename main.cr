@@ -6,7 +6,7 @@ require "base64"
 require "kemal"
 require "dotenv"
 
-Dotenv.load
+#Dotenv.load
 
 DEST_REPO = "git-hell/githell"
 KEY = ENV["SECRET_KEY"]
